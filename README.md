@@ -13,7 +13,7 @@ Stworzenie nowoczesnego, szybkiego i przyjaznego użytkownikowi sklepu interneto
 - **Renderowanie**: SSR dla SEO + krytycznych stron (produkt, kategoria, strona główna) + CSR dla panelu koszyka / konta użytkownika  
 - **Wzór projektowy**: MVC na backendzie + komponentowy frontend (kompozycja + feature-sliced design)
 
-## 3. Stos technologiczny (propozycja realistyczna 2026)
+## 3. Stos technologiczny 
 
 ### Frontend
 - JavaScript / TypeScript
@@ -54,7 +54,7 @@ Stworzenie nowoczesnego, szybkiego i przyjaznego użytkownikowi sklepu interneto
   - Dobra obsługa zwrotów i reklamacji (widoczna na stronie)
   - Opinie i zdjęcia od klientów
 
-## 5. Kluczowe funkcjonalności (MVP 2026)
+## 5. Kluczowe funkcjonalności 
 
 ### Strony publiczne
 - Strona główna (hero + bestsellery + kategorie + newsletter)
@@ -72,14 +72,14 @@ Stworzenie nowoczesnego, szybkiego i przyjaznego użytkownikowi sklepu interneto
 - Ulubione / lista życzeń
 - Subskrypcje newslettera / powiadomienia o stanie zamówienia
 
-### Panel administracyjny (minimum)
+### Panel administracyjny 
 - CRUD produktów + warianty + zdjęcia
 - Zarządzanie kategoriami i atrybutami
 - Zamówienia (statusy, notatki, wysyłka)
 - Podstawowe statystyki (sprzedaż, konwersja, porzucone koszyki)
 - Zarządzanie treścią (banery, promocje, strony statyczne)
 
-### Must-have 2025/2026
+### Must-have 
 - Pełna responsywność + PWA (opcjonalnie)
 - Szybkość ładowania < 2–2,5 s (LCP, CLS, FID/INP)
 - Zaawansowana wyszukiwarka + autouzupełnianie + synonimy
@@ -90,7 +90,7 @@ Stworzenie nowoczesnego, szybkiego i przyjaznego użytkownikowi sklepu interneto
 - Rabaty / kody promocyjne / vouchery
 - Integracja z Google Analytics 4 / Meta Pixel / Hotjar / Plausible
 
-## 6. Wymagania techniczne i prawne (2026)
+## 6. Wymagania techniczne i prawne 
 
 ### Prawne (Polska / UE)
 - Regulamin sklepu zgodny z UOKiK + Dyrektywą Omnibus
@@ -109,7 +109,7 @@ Stworzenie nowoczesnego, szybkiego i przyjaznego użytkownikowi sklepu interneto
 - Backup bazy + plików (codzienny / co 6 h)
 - Monitoring błędów (Sentry / Logflare)
 
-## 7. Dokumentacja (wymagania końcowe projektu)
+## 7. Dokumentacja 
 
 - **Kod** — JSDoc / TypeDoc (frontend) + PHPDoc / TSDoc (backend)
 - **Architektura i decyzje** — `/docs/architecture.md` + ADR (Architectural Decision Records)
@@ -119,7 +119,7 @@ Stworzenie nowoczesnego, szybkiego i przyjaznego użytkownikowi sklepu interneto
 - **Instrukcja uruchomienia** — `/README.md` + `/docs/setup.md`
 - **Checklista wdrożeniowa** — osobny plik przed każdym releasem
 
-## 8. Kolejne etapy (po MVP)
+## 8. Kolejne etapy 
 
 - Moduł subskrypcji / płatności cykliczne
 - B2B (cenniki indywidualne, faktury proforma)
@@ -128,3 +128,4 @@ Stworzenie nowoczesnego, szybkiego i przyjaznego użytkownikowi sklepu interneto
 - AI rekomendacje produktów
 - Live chat + chatbot
 - Integracja z TikTok Shop / Allegro / Amazon
+
